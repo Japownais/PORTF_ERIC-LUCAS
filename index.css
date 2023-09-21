@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'CastoroTitling-Regular';
+    src: url('./font/CastoroTitling-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('./font/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rajdhani-Regular';
+    src: url('./font/Rajdhani-Regular.ttf');
+}
+
+h1 {
+    font-family: CastoroTitling-Regular;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: CastoroTitling-Regular;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: BebasNeue-Regular;
+    font-size: 25px;
+}
+
+h4 {
+    font-family: Rajdhani-Regular;
+    font-size: 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+header {
+    padding: 2px;
+    text-align: center;
+    background: rgb(138, 14, 221);
+    height: 180px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #333;  
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.class1 {
+    background-image: url(img/img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.class2 {
+    background-image: url(img/img2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.class3 {
+    background-image: url(img/img3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.class4 {
+    background-image: url(img/img4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.class5 {
+    background-image: url(img/img5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.class6 {
+    background-image: url(img/img6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.class7 {
+    background-image: url(img/img7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.class8 {
+    background-image: url(img/img8.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    height: 40%
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu a {
+        float: none;
+        width: 100%;
+    }
+}
